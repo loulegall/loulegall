@@ -5,6 +5,9 @@
 
     <title>Accueil</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 
   </head>
 
@@ -16,7 +19,16 @@
     <nav>
       <ul>
         <li><a href="./index.html">Acccueil</a></li>
-        <li><a href="./page1.html">Travaux</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+           </div>
+        </li>
         <li><a href="./page2.html">Qui suis-je</a></li>
       </ul>
 
